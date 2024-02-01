@@ -3,7 +3,7 @@ February 2, 2024
 Anna Duan
 
 
-In this demo students will learn the basics of using Github repositories for version control. They will learn to fork, clone, commit, and push. They will also get practice collaborating on repositories, including best practices for working simultaneously and resolving conflicts.
+In this demo students will learn the basics of using Github repositories for version control. They will learn to fork, clone, commit, and push. They will also get practice collaborating on repositories, including best practices for working simultaneously and resolving conflicts. Data for this activity comes from OpenDataPhilly: https://metadata.phila.gov/#home/datasetdetails/5dc1aeb93741fa001504b10b/representationdetails/5dc1aeb93741fa001504b10f/
 
 
 
