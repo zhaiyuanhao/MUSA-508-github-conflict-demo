@@ -6,7 +6,25 @@ output: html_document
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(
+	echo = TRUE,
+	message = FALSE,
+	warning = FALSE
+)
 
-library(ggplot)
+library(tidyverse)
+library(ggplot2)
+library(sf)
+library(mapview)
+
 ```
+
+```{r load data, include = FALSE}
+parks <- st_read("https://opendata.arcgis.com/datasets/d52445160ab14380a673e5849203eb64_0.geojson")
+```
+
+```{r preview data}
+mapview(parks, col.regions = "darkolivegreen", )
+```
+
+
