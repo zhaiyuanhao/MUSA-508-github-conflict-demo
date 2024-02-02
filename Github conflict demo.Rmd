@@ -53,5 +53,5 @@ Finally, let's map using ggplot2. Add your name as a subtitle in the labs() func
 ggplot() +
   geom_sf(data = parks, fill = "chartreuse4", color = "transparent") +
   labs(title = "Philadelphia Park System, 2023") + 
-  theme_void()
+  theme_classic()
 ```
