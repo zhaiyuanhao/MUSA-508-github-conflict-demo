@@ -16,6 +16,9 @@ output:
 
 ## Setup 
 Hey, this is my clone version of this repo!
+```{r}
+print('Hello World!')
+```
 
 First let's set up our chunk options and required libraries. This will minimize clutter and remove unnecessary messages and warnings. 
 ```{r setup, include=FALSE}
